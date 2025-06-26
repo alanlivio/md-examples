@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        "vstirbu.vscode-mermaid-preview",
+        "bierner.markdown-mermaid",
+        "davidanson.vscode-markdownlint",
+        "marp-team.marp-vscode",
+        "bierner.markdown-preview-github-styles"
+    ]
+}
