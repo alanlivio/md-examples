@@ -3,13 +3,13 @@ function Blocks(blocks)
   local result = pandoc.List()
 
   for _, block in ipairs(blocks) do
-    if (block.t == "CodeBlock") and block.content then
+    if block.t == "CodeBlock" and block.text then
       local content = pandoc.List()
       -- Apply Courier New to CodeBlock
       content:insert(pandoc.RawBlock("openxml",
         "<w:r><w:rPr><w:rFonts w:ascii='Courier New' w:hAnsi='Courier New'/></w:rPr>"))
-      content:insert(pandoc.RawBlock("openxml", block.content))
-      content:insert(pandoc.RawBlock("openxml", "</w:r"))
+      content:insert(pandoc.RawBlock("openxml", block.text))
+      content:insert(pandoc.RawBlock("openxml", "</w:r>"))
       result:insert(pandoc.Para(content))
     elseif block.t == "Para" then
       -- Apply Arial 14pt to Paragraphs
