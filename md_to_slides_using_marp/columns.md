@@ -12,7 +12,7 @@ style: |
 
 ## Column 1
 
-* Content 1
+- Content 1
 
 </div>
 
@@ -21,7 +21,7 @@ style: |
 
 ## Column 2
 
-* Content2
+- Content2
 
 </div>
 
