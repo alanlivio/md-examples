@@ -1,3 +1,5 @@
+<!-- To export this as pdf, use the VSCode extension yzane.markdown-pdf and action "Markdown PDF: Export (pdf)"  -->
+
 <style>
 p {
     text-align: justify;
