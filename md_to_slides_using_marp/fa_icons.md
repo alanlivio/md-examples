@@ -9,6 +9,6 @@ style: |
 ---
 
 - Here is a Font Awesome icon: <i class="fas fa-coffee"></i>
-- TODO <i class="fas fa-thumbs-up"></i>
+- Thumbs up <i class="fas fa-thumbs-up"></i>
 
 # testing fa <i class="fas fa-thumbs-up"></i>
