@@ -1,11 +1,9 @@
-<!-- pandoc --from markdown+raw_attribute --to docx input.md -o output.docx --verbose -->
+<!-- pandoc --from markdown+raw_attribute --to docx FILE.md -o FILE.docx -->
 
-# A
+# Introduction
 
-## B
+This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned. This is paragraph will be left aligned.
 
-<!-- this break a line using the pandoc raw_attribute for docx -->
-<!-- https://pandoc.org/chunkedhtml-demo/8.14-raw-html.html -->
 ```{=openxml}
 <w:p>
   <w:r>
@@ -14,4 +12,4 @@
 </w:p>
 ```
 
-### C
+Another regular paragraph in other page

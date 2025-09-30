@@ -1,3 +1,4 @@
+<!-- pandoc --from markdown+raw_attribute --to docx FILE.md -o FILE.docx -->
 
 # Introduction
 
