@@ -12,6 +12,9 @@ style: |
   section.invert {
     text-align: center;
   }
+  section.invert {
+    text-align: center;
+  }
 ---
 
 <!-- _class: invert -->
