@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "yzane.markdown-pdf",
+        "marp-team.marp-vscode",
+        "mermaidchart.vscode-mermaid-chart",
+        // mermaid-export-pro still not support custom css
+        // "bierner.markdown-mermaid",
+        // "gsejas.mermaid-export-pro",
+        // "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        "davidanson.vscode-markdownlint",
+    ]
+}
