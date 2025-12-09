@@ -1,3 +1,4 @@
+```mermaid
 ---
 config:
   theme: neutral
@@ -9,3 +10,4 @@ graph TD
     B-->C[fa:fa-ban forbidden]
     B-->D[fa:fa-spinner spinner]
     B-->E[fa:fa-camera-retro camera]
+```

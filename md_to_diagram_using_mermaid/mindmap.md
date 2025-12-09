@@ -1,3 +1,4 @@
+```mermaid
 ---
 config:
   theme: neutral
@@ -22,3 +23,4 @@ mindmap
     Tools
       Pen and paper
       Mermaid
+```
