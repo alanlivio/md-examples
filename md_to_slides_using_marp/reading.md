@@ -39,4 +39,4 @@ style: |
 
 <img src="assets/cs_logo.png" width="600"/>
 
-# Thank you! =)
+# Thank you! 😊
