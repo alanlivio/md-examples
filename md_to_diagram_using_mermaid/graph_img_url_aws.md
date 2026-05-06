@@ -6,11 +6,11 @@ config:
     fontSize: 20px
 ---
 flowchart LR
-    User([UserX])
+    User([User])
     subgraph AWS ["AWS Cloud"]
         direction LR
-        Agent@{ img: "https://icon.icepanel.io/AWS/svg/Management-Governance/Chatbot.svg", label: "Bedrock Agent",  w: 100, h: 100}
-        Lambda@{ img: "https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg", label: "Lambda",  w: 100, h: 100  }
+        Agent["<img src='https://icon.icepanel.io/AWS/svg/Management-Governance/Chatbot.svg' width='50' height='50' /><br/>Bedrock Agent"]
+        Lambda["<img src='https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg' width='50' height='50' /><br/>Lambda"]
     end
 
     User -- "ask" --> Agent
