@@ -1,0 +1,8 @@
+{
+  "name": "slides-using-marp-npx",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "markdown-it-include": "^2.0.0"
+  }
+}
