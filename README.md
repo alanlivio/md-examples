@@ -1,11 +1,9 @@
 # md-examples
 
-`md-examples` is a collection of markdown files examples for creating:
+`md-examples` is a collection of Markdown examples organized by folder:
 
-- `report` using [Pandoc](http://pandoc.org/).
-- `report` using VSCode extension [`yzane.markdown-pdf`].(https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).
-- `slides` using [Marp](https://marp.app/) presentation system and its VSCode extension [`marp-vscode`](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
-- `docx` using [Pandoc](http://pandoc.org/) and the format [markdown+raw_attribute](https://pandoc.org/MANUAL.html#extension-raw_attribute).
-- `diagram` using [Mermaid description](https://mermaid.js.org/). There is two ways to visualise and export such diagrams.
-  - A) Individually visualise and export (i.e., `.mmd` file) using VSCode official extension [MermaidChart.vscode-mermaid-chart](https://marketplace.visualstudio.com/items?itemName=MermaidChart.vscode-mermaid-chart). Easy use but require multiple click to exports, which because tedious for multiple files.
-  - B) Parallel visualise (i.e., inside a `.md` file) using [bierner.markdown-mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) and exporting all using [GSejas.mermaid-export-pro](https://marketplace.visualstudio.com/items?itemName=GSejas.mermaid-export-pro). But it may require add `"markdown.styles": ["https://use.fontawesome.com/releases/v5.7.1/css/all.css"]` to VSCode settings enable fa icons.
+- [`report_using_pandoc`](./report_using_pandoc/): PDF and DOCX reports generated with [Pandoc](http://pandoc.org/) using custom styling.
+- [`report_using_vscode_markdown_pdf`](./report_using_vscode_markdown_pdf/): Reports styled with embedded CSS and exported using the VSCode extension [`yzane.markdown-pdf`](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).
+- [`slides_using_marp`](./slides_using_marp/): Slides built with the [Marp](https://marp.app/) framework and its VSCode extension [`marp-vscode`](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
+- [`report_using_pandoc_openxml`](./report_using_pandoc_openxml/): Word documents (`.docx`) created with [Pandoc](http://pandoc.org/) using [markdown+raw_attribute](https://pandoc.org/MANUAL.html#extension-raw_attribute) to inject raw OpenXML tags (e.g., page breaks and text justification).
+- [`diagram_using_mermaid`](./diagram_using_mermaid/): Diagrams created with [Mermaid syntax](https://mermaid.js.org/) (flowcharts, mindmaps, icon integration). Visualized and exported individually (`.mmd` files) using the official VSCode extension [`MermaidChart.vscode-mermaid-chart`](https://marketplace.visualstudio.com/items?itemName=MermaidChart.vscode-mermaid-chart).
